@@ -37,4 +37,10 @@ print(test.find("a") )
 
 password = input("What is Your password?")
 
-if
+if password .find('z') == -1:
+    print("Rejected")
+else:
+    if password [-1] == "!" and password [0].isupper():
+        print("Accsepted")
+    else:
+        print("rejected")
